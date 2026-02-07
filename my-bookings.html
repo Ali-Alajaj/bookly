@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/general-header.css">
+  <link rel="stylesheet" href="styles/general-footer.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/my-bookings.css">
+
+  <title>My Bookings</title>
+</head>
+<body>
+  <header>
+    <!--[Logo] | Home | Browse Hotels | My Bookings | Contact | (Login Button)-->
+    <div class="header-left-section">
+      <a class="homepage-link" href="index.html">
+        <img class="logo" src="images/logos/logo.jpg">
+        <img class="mobile-logo" src="images/logos/mobile-logo.jpg">
+      </a>
+    </div>
+    <div class="header-right-section">
+      <a class="headers-link home-link" href="index.html">Home</a>
+      <a class="headers-link" href="browse.html">Browse Hotels</a>
+      <a class="headers-link my-bookings-link" href="my-bookings.html">My Bookings</a>
+      <a class="headers-link contact-link" href="contact.html">Contact</a>
+      <div class="profile js-profile-btn">
+        <img class="profile-picture" src="images/icons/profile-picture.png">
+      </div>
+      <div class="hamburger-menu-button js-hamburger-menu-btn">
+        <img class="hamburger-menu-icon" src="images/icons/hamburger-menu.png">
+      </div>
+    </div>
+
+    <div class="user-menu js-user-menu">
+      <img class="x-symbol js-x-symbol" src="images/icons/x-symbol.png">
+      <div class="profile-picture-section">
+        <img class="profile-picture" src="images/icons/profile-picture.png">
+        <p>Your Name</p>
+      </div>
+      <div class="tools-section">
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/profile.png">
+          </div>
+          <div class="tool-name">
+            <p>Edit Profile</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/setting.png">
+          </div>
+          <div class="tool-name">
+            <p>Settings & Privacy</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/help.png">
+          </div>
+          <div class="tool-name">
+            <p>Help & Support</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/logout.png">
+          </div>
+          <div class="tool-name">
+            <p>Logout</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="js-mobile-header-menu mobile-header-menu">
+      <a class="header-mobile-link mobile-home-link" href="index.html">Home</a>
+      <a class="header-mobile-link mobile-browse-hotels-link" href="browse.html">Browse Hotels</a>
+      <a class="header-mobile-link mobile-my-bookings-link" href="my-bookings.html">My Bookings</a>
+      <a class="header-mobile-link mobile-contact-link" href="contact.html">Contact</a>
+      <div class="header-mobile-link mobile-profile-link js-profile-btn" href="">
+        Profile <img class="profile-picture" src="images/icons/profile-picture.png">
+      </div>
+    </div>
+  </header>
+
+  <div class="page-title">
+    <p>Your Bookings</p>
+    <p>View and manage your reservations</p>
+  </div>
+  <main></main>
+
+  <footer>
+    <section class="footer-links">
+      <div class="footer-title">
+        Pages
+      </div>
+      <div class="links">
+        <a href="index.html">Home 🏠</a>
+        <a href="browse.html">Browse Hotels 📅</a>
+        <a href="my-bookings.html">My Bookings 📖</a>
+        <a href="contact.html">Contact 📞</a>
+      </div>
+      
+    </section>
+    
+    <section class="footer-socials">
+      <div class="footer-title">
+        Social Media
+      </div>
+      <div class="social-icons-container">
+        <img src="images/icons/instagram-icon.png">
+        <img src="images/icons/x-icon.png">
+        <img src="images/icons/facebook-icon.png">
+      </div>
+    </section>
+    <section>
+      <div class="footer-title">
+        Newsletter Signup
+      </div>
+      <div class="message-container">
+        <input type="text" placeholder="Your Email">
+        <button class="subscribe-button">
+          Subscribe
+        </button>
+      </div>
+    </section>
+  </footer>
+  <section class="copyrights-section">
+    Copyright: © Bookly 2025
+  </section>
+
+  <script src="scripts/my-bookings.js" type="module"></script>
+</body>
+</html>

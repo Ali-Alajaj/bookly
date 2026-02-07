@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/bookly.css">
+  <link rel="stylesheet" href="styles/general-header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/general-footer.css">
+
+  <title>Bookly</title>
+</head>
+<body>
+  <header>
+    <!--[Logo] | Home | Browse Hotels | My Bookings | Contact | (Login Button)-->
+    <div class="header-left-section">
+      <a class="homepage-link" href="index.html">
+        <img class="logo" src="images/logos/logo.jpg">
+        <img class="mobile-logo" src="images/logos/mobile-logo.jpg">
+      </a>
+    </div>
+    <div class="header-right-section">
+      <a class="headers-link home-link" href="index.html">Home</a>
+      <a class="headers-link" href="browse.html">Browse Hotels</a>
+      <a class="headers-link my-bookings-link" href="my-bookings.html">My Bookings</a>
+      <a class="headers-link contact-link" href="contact.html">Contact</a>
+      <div class="profile js-profile-btn">
+        <img class="profile-picture" src="images/icons/profile-picture.png">
+      </div>
+      <div class="hamburger-menu-button js-hamburger-menu-btn">
+        <img class="hamburger-menu-icon" src="images/icons/hamburger-menu.png">
+      </div>
+    </div>
+
+    <div class="user-menu js-user-menu">
+      <img class="x-symbol js-x-symbol" src="images/icons/x-symbol.png">
+      <div class="profile-picture-section">
+        <img class="profile-picture" src="images/icons/profile-picture.png">
+        <p>Your Name</p>
+      </div>
+      <div class="tools-section">
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/profile.png">
+          </div>
+          <div class="tool-name">
+            <p>Edit Profile</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/setting.png">
+          </div>
+          <div class="tool-name">
+            <p>Settings & Privacy</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/help.png">
+          </div>
+          <div class="tool-name">
+            <p>Help & Support</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+        <div class="user-menu-tool">
+          <div class="tool-icon-container">
+            <img class="tool-icon" src="images/icons/logout.png">
+          </div>
+          <div class="tool-name">
+            <p>Logout</p>
+            <p>&#9654;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="js-mobile-header-menu mobile-header-menu">
+      <a class="header-mobile-link mobile-home-link" href="index.html">Home</a>
+      <a class="header-mobile-link mobile-browse-hotels-link" href="browse.html">Browse Hotels</a>
+      <a class="header-mobile-link mobile-my-bookings-link" href="my-bookings.html">My Bookings</a>
+      <a class="header-mobile-link mobile-contact-link" href="contact.html">Contact</a>
+      <div class="header-mobile-link mobile-profile-link js-profile-btn" href="">
+        Profile <img class="profile-picture" src="images/icons/profile-picture.png">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="background-image-container">
+      <img class="background-image" src="images/places/background.-image.jpg">
+    </div>
+    <div class="hero-section">
+      <p class="hero-section-title">Book Your Perfect Stay, Fast & Easy</p>
+      <p class="hero-section-main-text">Find the best rooms at the best prices. Comfort is just a click away.</p>
+      <a href="browse.html" class="booking-button">Start Booking</a>
+    </div>
+    <div class="info">
+      <div class="info-title">Why book with us?</div>
+      <div class="booking-reasons">
+        <p>Wide range of hotels 🏨</p>
+        <p>Best price guarantee 💸</p>
+        <p>Fast & easy booking ⚡</p>
+        <p>Secure payments 🔒</p>
+      </div>
+    </div>
+    <div class="featured-hotels">
+      <p class="fh-title">Featured Properties</p>
+      <div class="fh-grid">
+        <section class="fh-hotel">
+          <div class="fh-image-container">
+            <img class="hotel-image" src="images/properties/hotel10.jpg">
+          </div>
+          <p class="hotel-name">
+            Mountain View Lodge
+          </p>
+          <div class="rating">
+            <img class="stars" src="images/stars/rating-50.png">
+            <span class="rating-count">1340</span>
+          </div>
+          <p class="price">$160 per Night</p>
+          <p class="small-tag">Luxury choice</p>
+          <button class="js-view-details-btn" data-property-id="e1f5877c-19a1-4aa7-bb8b-b70da4f28dcb">View Details</button>
+        </section>
+        <section class="fh-hotel">
+          <div class="fh-image-container">
+            <img class="hotel-image" src="images/properties/hotel3.jpg">
+          </div>
+          <p class="hotel-name">
+            Coastal Breeze Resort
+          </p>
+          <div class="rating">
+            <img class="stars" src="images/stars/rating-50.png">
+            <span class="rating-count">1120</span>
+          </div>
+          <p class="price">$150 per Night</p>
+          <p class="small-tag">Budget</p>
+          <button class="js-view-details-btn" data-property-id="a6e2c6d7-bb24-40d4-b79e-0212d9a3f7b4">View Details</button>
+        </section>
+        <section class="fh-hotel">
+          <div class="fh-image-container">
+            <img class="hotel-image" src="images/properties/hotel29.jpg">
+          </div>
+          <p class="hotel-name">
+            Nice Seaside Villa
+          </p>
+          <div class="rating">
+            <img class="stars" src="images/stars/rating-50.png">
+            <span class="rating-count">1120</span>
+          </div>
+          <p class="price">$180 per Night</p>
+          <p class="small-tag">City luxury</p>
+          <button class="js-view-details-btn" data-property-id="81dfda89-15b7-409b-b041-c0d1ed1b9edb">View Details</button>
+        </section>
+        <section class="fh-hotel">
+          <div class="fh-image-container">
+            <img class="hotel-image" src="images/properties/hotel25.jpg">
+          </div>
+          <p class="hotel-name">
+            Sydney Harbor Resort
+          </p>
+          <div class="rating">
+            <img class="stars" src="images/stars/rating-50.png">
+            <span class="rating-count">1001</span>
+          </div>
+          <p class="price">$175 per Night</p>
+          <p class="small-tag">Modern</p>
+          <button class="js-view-details-btn" data-property-id="bded8b17-d1c7-456a-8b16-8d309a8c4492">View Details</button>
+        </section>
+      </div>
+    </div>
+
+    <div class="call-to-action">
+      <div>
+        <p>Ready for your next stay?</p>
+        <p>Start browsing hotels now!</p>
+      </div>
+      
+      <button class="js-browse-hotels-btn">Browse Hotels</button>
+    </div>
+  </main>
+
+  <footer>
+    <section class="footer-links">
+      <div class="footer-title">
+        Pages
+      </div>
+      <div class="links">
+        <a href="index.html">Home 🏠</a>
+        <a href="browse.html">Browse Hotels 📅</a>
+        <a href="my-bookings.html">My Bookings 📖</a>
+        <a href="contact.html">Contact 📞</a>
+      </div>
+      
+    </section>
+    
+    <section class="footer-socials">
+      <div class="footer-title">
+        Social Media
+      </div>
+      <div class="social-icons-container">
+        <img src="images/icons/instagram-icon.png">
+        <img src="images/icons/x-icon.png">
+        <img src="images/icons/facebook-icon.png">
+      </div>
+    </section>
+    <section>
+      <div class="footer-title">
+        Newsletter Signup
+      </div>
+      <div class="message-container">
+        <input type="text" placeholder="Your Email">
+        <button class="subscribe-button">
+          Subscribe
+        </button>
+      </div>
+    </section>
+  </footer>
+  <section class="copyrights-section">
+    Copyright: © Bookly 2025
+  </section>
+
+  <script src="./scripts/homepage.js" type="module"></script>
+</body>
+</html>

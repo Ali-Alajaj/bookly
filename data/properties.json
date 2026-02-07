@@ -1,0 +1,681 @@
+[
+  {
+    "id": "c2a82c5e-aff4-435f-9975-517cfaba2ece",
+    "name": "Sunrise Grand Hotel",
+    "image": "images/properties/hotel1.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 845
+    },
+    "pricePerNight": 120,
+    "location": "New York, USA",
+    "type": "hotel",
+    "facilities": [
+      "freeWifi",
+      "parking",
+      "restaurant"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 0,
+      "to": 5
+    },
+    "smallTag": "Popular choice"
+  },
+  {
+    "id": "b8d3a2f1-994a-42f5-bc02-197cf4b8b12b",
+    "name": "Cityscape Suites",
+    "image": "images/properties/hotel2.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 523
+    },
+    "pricePerNight": 90,
+    "location": "Chicago, USA",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "fitnessCenter"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 2,
+      "to": 9
+    },
+    "smallTag": "Best value"
+  },
+  {
+    "id": "a6e2c6d7-bb24-40d4-b79e-0212d9a3f7b4",
+    "name": "Coastal Breeze Resort",
+    "image": "images/properties/hotel3.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 1120
+    },
+    "pricePerNight": 150,
+    "location": "Los Angeles, USA",
+    "type": "resort",
+    "facilities": [
+      "swimmingPool",
+      "restaurant",
+      "fitnessCenter"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 1,
+      "to": 7
+    },
+    "smallTag": "Budget"
+  },
+  {
+    "id": "d72e6ff3-9883-4b79-b5b9-7c4f567e9eab",
+    "name": "Desert Mirage Villa",
+    "image": "images/properties/hotel4.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 432
+    },
+    "pricePerNight": 200,
+    "location": "Dubai, UAE",
+    "type": "villa",
+    "facilities": [
+      "swimmingPool",
+      "freeWifi",
+      "roomService"
+    ],
+    "maxGuests": 6,
+    "availability": {
+      "from": 0,
+      "to": 10
+    },
+    "smallTag": "Luxury"
+  },
+  {
+    "id": "e8c3f2e0-32ba-45f9-bec1-07bdb5f5b6a2",
+    "name": "Palm Creek Homestay",
+    "image": "images/properties/hotel5.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 276
+    },
+    "pricePerNight": 110,
+    "location": "Abu Dhabi, UAE",
+    "type": "homestay",
+    "facilities": [
+      "freeWifi",
+      "parking"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 3,
+      "to": 8
+    },
+    "smallTag": "Nature escape"
+  },
+  {
+    "id": "ff93e8b2-c6b1-4638-923a-6d2812b1f442",
+    "name": "Golden Sands Motel",
+    "image": "images/properties/hotel6.jpg",
+    "rating": {
+      "stars": 3.5,
+      "count": 187
+    },
+    "pricePerNight": 80,
+    "location": "Sharjah, UAE",
+    "type": "motel",
+    "facilities": [
+      "parking",
+      "freeWifi"
+    ],
+    "maxGuests": 2,
+    "availability": {
+      "from": 2,
+      "to": 6
+    },
+    "smallTag": "Private"
+  },
+  {
+    "id": "18c4be91-75fa-4b2e-b0a9-f5a4829c7b12",
+    "name": "Seaside Retreat",
+    "image": "images/properties/hotel7.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 670
+    },
+    "pricePerNight": 140,
+    "location": "Barcelona, Spain",
+    "type": "resort",
+    "facilities": [
+      "swimmingPool",
+      "restaurant",
+      "freeWifi"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 1,
+      "to": 5
+    },
+    "smallTag": "Top rated"
+  },
+  {
+    "id": "fd1a382c-d102-4cf3-8a3a-f0b1d7ac8db8",
+    "name": "Urban Charm Hotel",
+    "image": "images/properties/hotel8.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 509
+    },
+    "pricePerNight": 115,
+    "location": "Madrid, Spain",
+    "type": "hotel",
+    "facilities": [
+      "restaurant",
+      "freeWifi",
+      "roomService"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 0,
+      "to": 4
+    },
+    "smallTag": "Peaceful"
+  },
+  {
+    "id": "b98e6e57-3d6d-441b-9a8f-08e62790c622",
+    "name": "Horizon Suites",
+    "image": "images/properties/hotel9.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 782
+    },
+    "pricePerNight": 125,
+    "location": "Seville, Spain",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "fitnessCenter",
+      "restaurant"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 3,
+      "to": 9
+    },
+    "smallTag": "Cozy stay"
+  },
+  {
+    "id": "e1f5877c-19a1-4aa7-bb8b-b70da4f28dcb",
+    "name": "Mountain View Lodge",
+    "image": "images/properties/hotel10.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 1340
+    },
+    "pricePerNight": 160,
+    "location": "Zurich, Switzerland",
+    "type": "resort",
+    "facilities": [
+      "restaurant",
+      "roomService",
+      "fitnessCenter"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 0,
+      "to": 6
+    },
+    "smallTag": "Luxury choice"
+  },
+  {
+    "id": "df3a8c9a-7b54-4b8a-bb76-1725e32077d4",
+    "name": "Alpine Serenity Hotel",
+    "image": "images/properties/hotel11.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 610
+    },
+    "pricePerNight": 135,
+    "location": "Geneva, Switzerland",
+    "type": "hotel",
+    "facilities": [
+      "restaurant",
+      "freeWifi",
+      "parking"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 2,
+      "to": 8
+    },
+    "smallTag": "Exclusive"
+  },
+  {
+    "id": "1b4f19b2-ec9d-4961-9522-bb8e2c01a928",
+    "name": "Lakefront Haven",
+    "image": "images/properties/hotel12.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 545
+    },
+    "pricePerNight": 120,
+    "location": "Lucerne, Switzerland",
+    "type": "villa",
+    "facilities": [
+      "swimmingPool",
+      "parking",
+      "freeWifi"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 1,
+      "to": 7
+    },
+    "smallTag": "City view"
+  },
+  {
+    "id": "cc983b25-8a97-4a0a-8edc-8c49bb30b261",
+    "name": "Tropical Haven Resort",
+    "image": "images/properties/hotel13.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 950
+    },
+    "pricePerNight": 180,
+    "location": "Bali, Indonesia",
+    "type": "resort",
+    "facilities": [
+      "swimmingPool",
+      "restaurant",
+      "roomService"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 0,
+      "to": 10
+    },
+    "smallTag": "Budget"
+  },
+  {
+    "id": "94b94ac4-c21b-4b12-bf27-b188f2b4c17e",
+    "name": "Ocean Pearl Villa",
+    "image": "images/properties/hotel14.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 667
+    },
+    "pricePerNight": 145,
+    "location": "Jakarta, Indonesia",
+    "type": "villa",
+    "facilities": [
+      "freeWifi",
+      "swimmingPool"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 3,
+      "to": 8
+    },
+    "smallTag": "Beachfront"
+  },
+  {
+    "id": "b1a173e1-3dc8-4b1b-8cf1-6b67c8b9b7cb",
+    "name": "Paradise Bay Motel",
+    "image": "images/properties/hotel15.jpg",
+    "rating": {
+      "stars": 3.5,
+      "count": 342
+    },
+    "pricePerNight": 85,
+    "location": "Lombok, Indonesia",
+    "type": "motel",
+    "facilities": [
+      "freeWifi",
+      "parking"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 0,
+      "to": 5
+    },
+    "smallTag": "Family stay"
+  },
+  {
+    "id": "fb75c0e6-d0b5-4a1d-8f1b-23a7b26e62c4",
+    "name": "Royal Palm Hotel",
+    "image": "images/properties/hotel16.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 711
+    },
+    "pricePerNight": 130,
+    "location": "Rome, Italy",
+    "type": "hotel",
+    "facilities": [
+      "restaurant",
+      "roomService",
+      "freeWifi"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 2,
+      "to": 7
+    },
+    "smallTag": "Central"
+  },
+  {
+    "id": "de7d1b17-4038-4c20-9c82-91d8b6f9c181",
+    "name": "Florence City Apartments",
+    "image": "images/properties/hotel17.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 430
+    },
+    "pricePerNight": 105,
+    "location": "Florence, Italy",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "parking",
+      "restaurant"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 1,
+      "to": 9
+    },
+    "smallTag": "Quiet stay"
+  },
+  {
+    "id": "3f1e6a2f-212f-4df3-933a-9a65d3b83e0a",
+    "name": "Venetian Waters Villa",
+    "image": "images/properties/hotel18.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 980
+    },
+    "pricePerNight": 190,
+    "location": "Venice, Italy",
+    "type": "villa",
+    "facilities": [
+      "swimmingPool",
+      "roomService",
+      "restaurant"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 0,
+      "to": 8
+    },
+    "smallTag": "Luxury resort"
+  },
+  {
+    "id": "b13b9e60-c812-4c6a-bf3b-0e1ef4f39f45",
+    "name": "Tokyo Tower Suites",
+    "image": "images/properties/hotel19.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 880
+    },
+    "pricePerNight": 160,
+    "location": "Tokyo, Japan",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "restaurant",
+      "fitnessCenter"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 2,
+      "to": 6
+    },
+    "smallTag": "Great view"
+  },
+  {
+    "id": "e9d2e9e6-f20f-49f1-a8a2-19bc870a24cb",
+    "name": "Kyoto Blossom Hotel",
+    "image": "images/properties/hotel20.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 524
+    },
+    "pricePerNight": 120,
+    "location": "Kyoto, Japan",
+    "type": "hotel",
+    "facilities": [
+      "freeWifi",
+      "parking",
+      "restaurant"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 0,
+      "to": 4
+    },
+    "smallTag": "Natural"
+  },
+  {
+    "id": "f341ce62-6401-4f08-9c91-214b43d5cdb2",
+    "name": "Sakura Blossom Homestay",
+    "image": "images/properties/hotel21.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 390
+    },
+    "pricePerNight": 110,
+    "location": "Osaka, Japan",
+    "type": "homestay",
+    "facilities": [
+      "freeWifi",
+      "roomService"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 3,
+      "to": 9
+    },
+    "smallTag": "Romantic"
+  },
+  {
+    "id": "9f2045a7-9826-4d6f-b246-3fdb0e4a4fda",
+    "name": "London Bridge Hotel",
+    "image": "images/properties/hotel22.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 1044
+    },
+    "pricePerNight": 155,
+    "location": "London, UK",
+    "type": "hotel",
+    "facilities": [
+      "freeWifi",
+      "restaurant",
+      "fitnessCenter"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 1,
+      "to": 5
+    },
+    "smallTag": "Near beach"
+  },
+  {
+    "id": "6c72d5f1-7dbd-4893-a0bb-35a9b6fadb1e",
+    "name": "Manchester Comfort Inn",
+    "image": "images/properties/hotel23.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 620
+    },
+    "pricePerNight": 130,
+    "location": "Manchester, UK",
+    "type": "motel",
+    "facilities": [
+      "freeWifi",
+      "parking"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 2,
+      "to": 9
+    },
+    "smallTag": "Elegant"
+  },
+  {
+    "id": "2e1a882d-fc64-4ae2-9e1e-30b7828a2c4b",
+    "name": "Edinburgh View Apartments",
+    "image": "images/properties/hotel24.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 730
+    },
+    "pricePerNight": 140,
+    "location": "Edinburgh, UK",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "restaurant"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 0,
+      "to": 6
+    },
+    "smallTag": "Scenic"
+  },
+  {
+    "id": "bded8b17-d1c7-456a-8b16-8d309a8c4492",
+    "name": "Sydney Harbor Resort",
+    "image": "images/properties/hotel25.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 1001
+    },
+    "pricePerNight": 175,
+    "location": "Sydney, Australia",
+    "type": "resort",
+    "facilities": [
+      "swimmingPool",
+      "restaurant",
+      "roomService"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 0,
+      "to": 9
+    },
+    "smallTag": "Modern"
+  },
+  {
+    "id": "4a8edb1e-6a0c-456b-9f4c-4b0b8c31b8b1",
+    "name": "Melbourne Urban Suites",
+    "image": "images/properties/hotel26.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 860
+    },
+    "pricePerNight": 145,
+    "location": "Melbourne, Australia",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "restaurant",
+      "fitnessCenter"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 2,
+      "to": 8
+    },
+    "smallTag": "Mountain view"
+  },
+  {
+    "id": "a3cc7d57-41b9-44e3-b72d-42a7b85d6ad5",
+    "name": "Brisbane Riverside Hotel",
+    "image": "images/properties/hotel27.jpg",
+    "rating": {
+      "stars": 4,
+      "count": 530
+    },
+    "pricePerNight": 125,
+    "location": "Brisbane, Australia",
+    "type": "hotel",
+    "facilities": [
+      "restaurant",
+      "freeWifi"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 0,
+      "to": 4
+    },
+    "smallTag": "Luxury private"
+  },
+  {
+    "id": "e3e5b9f7-6c68-4cf0-87a3-3020e9c8a5a9",
+    "name": "Paris Central Apartments",
+    "image": "images/properties/hotel28.jpg",
+    "rating": {
+      "stars": 4.5,
+      "count": 780
+    },
+    "pricePerNight": 150,
+    "location": "Paris, France",
+    "type": "apartment",
+    "facilities": [
+      "freeWifi",
+      "restaurant"
+    ],
+    "maxGuests": 4,
+    "availability": {
+      "from": 1,
+      "to": 7
+    },
+    "smallTag": "Central stay"
+  },
+  {
+    "id": "81dfda89-15b7-409b-b041-c0d1ed1b9edb",
+    "name": "Nice Seaside Villa",
+    "image": "images/properties/hotel29.jpg",
+    "rating": {
+      "stars": 5,
+      "count": 1120
+    },
+    "pricePerNight": 180,
+    "location": "Nice, France",
+    "type": "villa",
+    "facilities": [
+      "swimmingPool",
+      "roomService",
+      "freeWifi"
+    ],
+    "maxGuests": 5,
+    "availability": {
+      "from": 2,
+      "to": 9
+    },
+    "smallTag": "City luxury"
+  },
+  {
+    "id": "a63cbd51-5281-45ef-9131-0e5b079a90cd",
+    "name": "Lyon Garden Motel",
+    "image": "images/properties/hotel30.jpg",
+    "rating": {
+      "stars": 3.5,
+      "count": 460
+    },
+    "pricePerNight": 95,
+    "location": "Lyon, France",
+    "type": "motel",
+    "facilities": [
+      "parking",
+      "freeWifi"
+    ],
+    "maxGuests": 3,
+    "availability": {
+      "from": 0,
+      "to": 5
+    },
+    "smallTag": "City view"
+  }
+]

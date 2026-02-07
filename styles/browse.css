@@ -1,0 +1,578 @@
+main {padding-bottom: 300px;}
+
+.main-top {
+  background-color: rgb(240, 240, 240);
+  padding: 40px 30px;
+  border: none;
+  padding-bottom: 62px;
+}
+
+.main-title {
+  font-size: 36px;
+  margin-top: 110px;
+  font-weight: bold;
+}
+
+.inputs-section {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  box-shadow: 0 0 19px rgba(0, 0, 0, 0.3);
+  padding: 20px 7px;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 245);
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 1220px;
+}
+
+.search-input {
+  border: solid 1.5px rgb(183, 183, 183);
+  height: 40px;
+  position: relative;
+  border-radius: 5px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-input-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  padding-left: 32px;
+  font-size: 17px;
+}
+
+.input-title {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: rgb(245, 245, 245);
+  padding: 0 4px;
+  font-size: 14px;
+  font-weight: normal;
+  z-index: 10;
+}
+
+.quick-search-container {
+  position: absolute;
+  background-color: white;
+  top: 40px;
+  left: -1.5px;
+  right: -1.5px;
+  border: solid 1.5px rgb(183, 183, 183);
+  background-color: rgb(245, 245, 245);
+  z-index: 37;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+.quick-search-result {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 20px;
+  margin: 0 12px;
+}
+
+.input-icon {
+  height: 18px;
+  margin-right: 6px;
+  z-index: 10;
+}
+
+.date-display, .update-guests-display {
+  position: absolute;
+  border: solid 1.5px rgb(183, 183, 183);
+  top: 45px;
+  left: -60px;
+  right: -60px;
+  /* height: 120px; */
+  z-index: 40;
+  background-color: white;
+  padding: 5px;
+  cursor: auto;
+  border-radius: 5px;
+  padding-bottom: 13px;
+  display: none;
+}
+.update-guests-display {
+  padding-top: 23px;
+  padding-left: 14px;
+  left: -20px;
+  right: -20px;
+}
+
+.update-date, .update-guests {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  
+  background-color: rgb(42, 113, 255);
+  border: none;
+  color: white;
+  height: 36px;
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.update-guests {
+  color: rgb(0, 108, 228);
+  background-color: white;
+  border: 1px solid;
+}
+
+/* .visible {display: inline;} */
+
+.current-date {
+  /* border: 1px solid red; */
+  color: rgb(90, 90, 90);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.date-editing, .guests-editing {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  color: rgb(66, 66, 66);
+  align-items: center;
+  width: 130px;
+  border: 1px solid rgb(183, 183, 183);
+  /* padding: 8px; */
+  border-radius: 6px;
+}
+
+.date-editing-container, .guest-editing-container {
+  display: flex;
+  /* border: 1px solid lime; */
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 17px;
+  margin-bottom: 6px;
+}
+.guest-editing-container {
+  max-width: 400px;
+  margin: 5px auto;
+}
+
+.dates-editing-container {font-weight: normal;}
+.edit-name, .guest-type {font-weight: bold;}
+
+.edit-date-button, .edit-guest-button {
+  color: rgb(0, 108, 228);
+  font-size: 15px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  /* border: 1px solid limegreen; */
+}
+
+.edit-date-button span {
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -5px; */
+}
+
+.filter-icon {
+  height: 23px;
+  margin-left: 10px;
+  /* border: 1px solid red; */
+}
+
+.filter-drop-down-button {
+  display: flex;
+  align-items: center;
+  border: solid 1px black;
+  background-color: white;
+  font-size: 24px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: none;
+}
+
+/* .filter-drop-down-button p { border: 1px solid red;} */
+
+.destination-input, .guests-input {width: 230px;}
+.guests-input {cursor: pointer;}
+.square-borders {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.checkin-checkout-inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 371px;
+  cursor: pointer;
+}
+
+.inputs-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  margin-left: 10px;
+  background-color: rgb(42, 113, 255);
+  border: none;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-hotels {
+  /* background-color: rgb(112, 135, 135); */
+  padding: 20px;
+  z-index: 36;
+  background-color: white;
+  position: relative;
+  padding-left: 250px;
+  border-top: solid 2px rgb(200, 200, 200);
+}
+
+.hotels-title {
+  /* color: rgb(122, 255, 122); */
+  /* color: rgb(122, 251, 255); */
+  color: rgb(60, 125, 127);
+  font-size: 30px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hotels-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hotel-image-container {
+  margin-bottom: 12px;
+}
+
+.stars {
+  height: 23px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating-count {
+  margin-left: 36px;
+  /* color: rgb(122, 255, 122); */
+  color: rgb(1, 124, 182);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.price {
+  /* color: white; */
+  font-size: 19px;
+  /* margin-bottom: 10px; */
+  /* border: solid 1px red; */
+}
+
+/* .price-and-small-tag {
+  border: solid 1px lime;
+} */
+
+.small-tag {
+  color: rgb(1, 169, 1);
+  font-weight: bold;
+  margin-right: 8px;
+  /* border: solid 1px; */
+  padding: 6px 0;
+  margin-bottom: 12px;
+}
+
+.hotel-name {
+  color: rgb(59, 119, 121);
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hotel {
+  border: solid 1px rgba(112, 135, 135, 0.4);
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 13px;
+  padding-bottom: 20px;
+}
+
+.hotel a {
+  background-color: rgb(26, 91, 255);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.side-filter {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
+  width: 220px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border: solid rgb(200, 200, 200) 1px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.filter-option-title {
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 10px;
+  border-bottom: solid rgb(200, 200, 200) 1px;
+  margin-bottom: 10px;
+}
+
+.side-filter-title {
+  text-align: center;
+  border-bottom: solid rgb(200, 200, 200) 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price-input {
+  width: 50px;
+  height: 20px;
+  border: 1px solid rgb(180, 180, 180);
+}
+.price-input::placeholder {padding-left: 5px;}
+
+.update-price-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-range-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid rgb(200, 200, 200) 1px;
+  padding-bottom: 10px;
+}
+
+.checkboxes-section {
+  padding: 10px;
+  border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px red; */
+  margin-bottom: 6px;
+}
+
+.filter-option-name {
+  color: rgb(83, 83, 83);
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+.price-inputs {margin-top: 10px;}
+
+.filter-checkbox {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.filter-x-symbol {
+  height: 18px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+
+.view-all-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(26, 128, 245);
+  /* margin-left: 30px; */
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 1175px) {
+  .hotels-grid {grid-template-columns: 1fr 1fr;}
+}
+
+@media (max-width: 1064px) {
+  .inputs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .destination-input, .guests-input {
+    width: 74%;
+    min-width: 410px;
+  }
+
+  .inputs-right-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .search-button {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .checkin-checkout-inputs {
+    margin: 15px 0; 
+    /* border: solid 1px red; */
+    width: 70%;
+    min-width: 400px;
+  }
+
+  .checkin-input, .checkout-input {
+    width: 50%;
+    margin: 0 4px;
+  }
+}
+
+@media (max-width: 960px) {
+  main {padding-bottom: 600px;}
+}
+
+@media (max-width: 904px) {
+  .hotels-grid {grid-template-columns: 1fr;}
+}
+
+@media (max-width: 587px) {
+  .side-filter {
+    right: 10px;
+    width: 95%;
+    top: 20px;
+    height: 0;
+    border: none;
+  }
+
+  .filter-x-symbol {display: inline;}
+
+  .filter-drop-down-button {display: flex;}
+
+  .main-hotels {padding-left: 20px;}
+
+  .main-title {text-align: center;}
+}
+
+@media (max-width: 520px) {
+  .checkout-date-display {
+    right: -20px;
+    left: -80px;
+  }
+  .checkin-date-display {
+    left: -20px;
+    right: -80px;
+  }
+
+  .date-editing {width: 112px;}
+  .search-input {height: 44px;}
+}
+
+@media (max-width: 510px) {
+  .destination-input, .guests-input {
+    width: 90%;
+    min-width: 0;
+  }
+
+  .checkin-checkout-inputs {
+    /* border: solid 1px red; */
+    width: 100%;
+    min-width: 0;
+  }
+
+  .main-top {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.visible {display: inline;}
+
+.side-filter-drop-down {
+  height: 773px;
+  /* border: solid rgb(200, 200, 200) 1px; */
+}

@@ -1,0 +1,289 @@
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 242px;
+}
+
+
+.background-image-container {
+ height: fit-content;
+}
+
+.background-image {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-section {
+  position: absolute;
+  top: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 18px 30px;
+  padding-bottom: 30px;
+  padding-right: 60px;
+  color: white;
+  background-color: rgba(28, 28, 28, 0.7);
+  border-radius: 10px;
+  width: 560px;
+}
+
+.hero-section-title {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.hero-section-main-text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.booking-button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(48, 189, 48);
+  padding: 13px 30px;
+  border-radius: 8px;
+  transition: background-color 0.16s;
+}
+.booking-button:hover {
+  background-color: rgb(53, 215, 53);
+}
+
+.info {
+  padding: 20px 23px;
+  background-color: rgb(15, 55, 76);
+  margin-top: -5px;
+  color: white;
+  z-index: 30;
+}
+
+.info-title {
+  font-size: 30px;
+}
+
+.booking-reasons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  color: gold;
+  font-size: 18px;
+}
+
+.featured-hotels {
+  /* background-color: rgb(112, 135, 135); */
+  padding: 20px;
+  z-index: 30;
+  background-color: white;
+}
+
+.fh-title {
+  /* color: rgb(122, 255, 122); */
+  /* color: rgb(122, 251, 255); */
+  color: rgb(60, 125, 127);
+  font-size: 30px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.fh-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.hotel-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fh-image-container {
+  margin-bottom: 12px;
+}
+
+.stars {
+  height: 23px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating-count {
+  margin-left: 36px;
+  /* color: rgb(122, 255, 122); */
+  color: rgb(1, 124, 182);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.price {font-size: 19px;}
+
+.small-tag {
+  /* font-size: 17px; */
+  color: rgb(1, 169, 1);
+  font-weight: bold;
+  padding: 6px 0;
+}
+
+.hotel-name {
+  color: rgb(59, 119, 121);
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.fh-hotel {
+  /* border: solid 1px rgb(112, 135, 135); */
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.fh-hotel button, .fh-hotel a {
+  background-color: rgb(26, 91, 255);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.16s;
+}
+.fh-hotel button:hover {
+  background-color: rgb(26, 125, 255);
+}
+
+.call-to-action {
+  background-color: rgb(15, 55, 76);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 150px;
+  padding-left: 25px;
+  position: relative;
+  z-index: 30;
+}
+
+.call-to-action p {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.call-to-action button {
+  position: absolute;
+  border: none;
+  background-color: white;
+  color: rgb(15, 55, 76);
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 20px rgba(238, 243, 243, 0.5);
+  transition: box-shadow 0.16s;
+}
+.call-to-action button:hover {
+  box-shadow: 0 2px 25px rgba(238, 243, 243, 0.5);
+}
+
+@media (max-width: 1265px) {
+  .fh-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .call-to-action button {
+    left: 90%;
+    transform: translateX(-90%);
+    width: 220px;
+    font-size: 18px;
+  }
+
+  main {padding-bottom: 555px;}
+}
+
+@media (max-width: 895px) {
+  .booking-reasons {font-size: 16px;}
+}
+
+@media (max-width: 800px) {
+  .booking-reasons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 19px;
+    row-gap: 13px;
+  }
+
+  .hero-section {
+    width: 400px;
+    padding: 18px 23px;
+    padding-bottom: 30px;
+  }
+
+  .hero-section-title {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .hero-section-main-text {line-height: 28px;}
+}
+
+@media (max-width: 642px) {
+  .call-to-action button {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  .call-to-action {
+    flex-direction: column;
+    padding: 23px 0;
+  }
+
+  .fh-grid {grid-template-columns: 1fr;}
+
+  .fh-title {text-align: center;}
+}
+
+@media (max-width: 490px) {
+  .booking-reasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-title {text-align: center;}
+
+  .hero-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    width: auto;
+  }
+
+  .hero-section { width: 240px;}
+
+  .booking-button {
+    display: block;
+    margin: auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 348px) {
+  .call-to-action p {font-size: 20px;}
+}
