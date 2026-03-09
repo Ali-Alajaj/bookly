@@ -151,9 +151,7 @@ loadProperties().then(() => {
 
     if (isValidEmail && isValidFullName && isValidPhoneNumber) {
       confirmButton.classList.add('booking-confirmed');
-      // https://68dae67223ebc87faa318cfc.mockapi.io/bookedProperties
-      bookingData.totalAmount = totalAmount;
-      const response = await fetch('https://68dae67223ebc87faa318cfc.mockapi.io/bookedProperties', {
+      const response = await fetch('https://my-api-d5al.onrender.com/bookly/book', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -163,9 +161,16 @@ loadProperties().then(() => {
 
       const bookedProperty = await response.json();
 
+      if (response.status === 400) {
+        confirmButton.classList.remove('booking-confirmed');
+        console.log(bookedProperties);
+        return;
+      }
+      
       clearBookingData();
       addNewBookedProperty(bookedProperty);
       window.location.href = `booking-success.html?bookingId=${bookedProperty.bookingId}`;
     }
   });
+
 });
