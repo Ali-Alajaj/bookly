@@ -1,6 +1,5 @@
 import dayjs from 'https://cdn.jsdelivr.net/npm/dayjs@1.11.18/+esm';
 
-// https://68dae67223ebc87faa318cfc.mockapi.io/hotels
 const now = dayjs();
 
 class Propertie {
@@ -44,7 +43,7 @@ export let properties = [];
 
 export function loadProperties() {
   const promise = fetch(
-    'https://68dae67223ebc87faa318cfc.mockapi.io/hotels'
+    'https://my-api-d5al.onrender.com/bookly/properties'
   ).then((response) => {
     console.log('properties loaded');
     return response.json()
@@ -67,5 +66,6 @@ export function getPropertieDetails(propertieId) {
 
   return matchingPropertie;
 }
+
 
 export function updateProperties(newProperties) {properties = newProperties};
