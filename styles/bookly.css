@@ -193,6 +193,7 @@ main {
   transform: translateX(-50%);
   box-shadow: 0 2px 20px rgba(238, 243, 243, 0.5);
   transition: box-shadow 0.16s;
+  white-space: nowrap;
 }
 .call-to-action button:hover {
   box-shadow: 0 2px 25px rgba(238, 243, 243, 0.5);
