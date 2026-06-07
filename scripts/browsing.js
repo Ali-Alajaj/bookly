@@ -112,7 +112,7 @@ loadProperties().then(() => {
         <span class="rating-count">${property.rating.count}</span>
       </div>
       <div class="price-and-small-tag">
-        <p class="price">$${property.pricePerNight} per Night test</p>
+        <p class="price">$${property.pricePerNight} per Night</p>
         <p class="small-tag">${property.smallTag}</p>
       </div>
       <a href="property-details.html?id=${property.id}">View Details</a>
